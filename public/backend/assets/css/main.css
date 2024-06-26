@@ -36743,3 +36743,12 @@ button.note-btn.dropdown-toggle:after {
 [data-bs-theme="dark"] .tt-media-wrap .tt-media-item {
     background-color: #212b36;
 }
+
+
+
+
+/* my css */
+
+#sidebar .tt-brand .tt-toggle-sidebar{
+    background: #007aff;
+}
