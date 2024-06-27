@@ -41,7 +41,7 @@
                         </li>
                     @endcan
 
-                    <!-- @can('variations')
+                    @can('variations')
                         <li
                             class="{{ areActiveRoutes(
                                 ['admin.variations.index', 'admin.variations.edit', 'admin.variationValues.index', 'admin.variationValues.edit'],
@@ -80,7 +80,7 @@
                 </ul>
             </div>
         </li>
-    @endcan -->
+    @endcan
 
     <!-- pos -->
     @canany(['pos'])

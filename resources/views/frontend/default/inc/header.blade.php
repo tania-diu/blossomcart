@@ -1,5 +1,5 @@
 <header class="gheader position-relative z-2 header-sticky">
-    <div class="ghead-topbar bg-primary d-none d-lg-block">
+    <div class="ghead-topbar bg-dark d-none d-lg-block">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-xxl-4 col-xl-3">
