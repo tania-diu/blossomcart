@@ -61,7 +61,7 @@
                                     </th>
                                     <th>{{ localize('Category Name') }}</th>
                                     <th data-breakpoints="xs sm">{{ localize('Base Category') }}</th>
-                                    <th data-breakpoints="xs sm">{{ localize('Brands') }}</th>
+                                   
                                     <th data-breakpoints="xs sm">{{ localize('Priority') }}</th>
                                     <th data-breakpoints="xs sm md" class="text-end">{{ localize('Action') }}</th>
                                 </tr>

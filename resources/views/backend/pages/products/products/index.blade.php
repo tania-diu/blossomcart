@@ -44,20 +44,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-auto">
-                                        <div class="input-group">
-                                            <select class="form-select select2" name="brand_id">
-                                                <option value="">{{ localize('Select Brand') }}</option>
-                                                @foreach ($brands as $brand)
-                                                    <option value="{{ $brand->id }}"
-                                                        @isset($brand_id)
-                                                         @if ($brand_id == $brand->id) selected @endif
-                                                        @endisset>
-                                                        {{ $brand->collectLocalization('name') }}</option>
-                                                @endforeach
-                                            </select>
-                                        </div>
-                                    </div>
+                                   
                                     <div class="col-auto">
                                         <div class="input-group">
                                             <select class="form-select select2" name="is_published"

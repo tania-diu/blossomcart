@@ -45,7 +45,7 @@
                                     <label for="topbar_email" class="form-label">{{ localize('Topbar Email') }}</label>
                                     <input type="hidden" name="types[]" value="topbar_email">
                                     <input type="email" name="topbar_email" id="topbar_email" class="form-control"
-                                        placeholder="{{ localize('grostore@support.com') }}"
+                                        placeholder="{{ localize('blossomcart@gmail.com') }}"
                                         value="{{ getSetting('topbar_email') }}">
                                 </div>
 
@@ -54,7 +54,7 @@
                                         class="form-label">{{ localize('Topbar Location') }}</label>
                                     <input type="hidden" name="types[]" value="topbar_location">
                                     <input type="text" name="topbar_location" id="topbar_location" class="form-control"
-                                        placeholder="{{ localize('Washington, New York, USA - 254230') }}"
+                                        placeholder="{{ localize('Mirpur,Dhaka,Bangladesh') }}"
                                         value="{{ getSetting('topbar_location') }}">
                                 </div>
 

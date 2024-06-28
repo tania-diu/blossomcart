@@ -9,7 +9,7 @@
             </div>
             <div class="col-md-6">
                 <div class="d-flex justify-content-center justify-content-md-end">
-                    {{ env('APP_NAME') }}<strong class="ms-2">{{ env('APP_VERSION') }}</strong>
+                    {{ env('APP_NAME') }}
                 </div>
             </div>
         </div>
